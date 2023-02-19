@@ -1,5 +1,5 @@
 <a href="https://novela.tinia.vercel.app/" target="_blank">
-<img src="https://github.com/tinialabs/next-theme-novela/blob/main/.github/static/nextjs-theme-novela-hero-emotion.jpg?raw=true" alt="gatsby-novela-theme hero image" />
+<img src="https://github.com/luckyman1004/-next_theme_novela/blob/main/.github/static/nextjs-theme-novela-hero-emotion.jpg?raw=true" alt="gatsby-novela-theme hero image" />
 </a>
 
 <br/>
@@ -14,11 +14,11 @@ Novela is built by the team at [Narative](https://www.narative.co), updated by [
 
 Special thanks to [@jpvalery](https://github.com/jpvalery) for helping maintain the original Gatsby version of Novela.
 
-See [tinialabs/next-starter-novela](https://github.com/tinialabs/next-starter-novela) for a complete starter kit that uses this theme.
+See [tinialabs/next-starter-novela](https://github.com/luckyman1004/next-starter-novela) for a complete starter kit that uses this theme.
 
 <div>
 <a href="https://novela.tinia.vercel.app/" target="_blank">
-<img src="https://github.com/tinialabs/next-theme-novela/blob/main/.github/static/nextjs-theme-novela-cta-demo.jpg?raw=true" alt="gatsby-novela-theme live demo" width="295px" />
+<img src="https://github.com/luckyman1004/-next_theme_novela/blob/main/.github/static/nextjs-theme-novela-cta-demo.jpg?raw=true" alt="gatsby-novela-theme live demo" width="295px" />
 </a>
 </div>
 
@@ -34,13 +34,13 @@ Features specific to Next.js over others Next.js examples
 
 ## Lighthouse scores (January 2021, Next.js version running on Vercel)
 
-<img src="https://github.com/tinialabs/next-theme-novela/blob/main/.github/static/lighthouse-scores-january-2021.png?raw=true" alt="Lighthouse 100-97-100-100"  />
+<img src="https://github.com/luckyman1004/-next_theme_novela/blob/main/.github/static/lighthouse-scores-january-2021.png?raw=true" alt="Lighthouse 100-97-100-100"  />
 
 ## Dependencies
 
-See [tinialabs/next-starter-novela](https://github.com/tinialabs/next-starter-novela) for a complete starter kit that uses this theme.
+See [tinialabs/next-starter-novela](https://github.com/luckyman1004/next-starter-novela) for a complete starter kit that uses this theme.
 
-See [tinialabs/next-lib-content](https://github.com/tinialabs/next-lib-content) for logic that generates the blog articles from markdown and yaml files on disk. 
+See [tinialabs/next-lib-content](https://github.com/luckyman1004/next-lib-content) for logic that generates the blog articles from markdown and yaml files on disk. 
 
 Two Next.js plugins [tinialabs/next-favicon-loader](https://github.com/tinialabs/next-favicon-loader) and [tinialabs/next-meta-image-loader](https://github.com/tinialabs/next-meta-image-loader) were hand-written to provide some of the Gatsby functionality in the original Novela theme and can now be used in any Next.js site.
 
@@ -59,7 +59,7 @@ Two Next.js plugins [tinialabs/next-favicon-loader](https://github.com/tinialabs
 
     - [Installation](#step-1-installation)
     - [Folder structure](#step-2-folder-structure)
-    - [Using Novela Theme](#step-3-using-next-theme-novela)
+    - [Using Novela Theme](#step-3-using--next_theme_novela)
     - [Adding an Author](#step-4-adding-an-author)
     - [Adding a Post](#step-5-adding-a-post)
     - [Configuring Site Metadata](#step-6-configuring-sitemetadata)
@@ -142,7 +142,7 @@ You can also view the completed [example repository](https://github.com/tinialab
 mkdir novela-site && cd novela-site
 
 # Add all required dependencies
-yarn add react react-dom next next-theme-novela
+yarn add react react-dom next -next_theme_novela
 ```
 
 ### Step 2: Folder structure
@@ -178,9 +178,9 @@ The recommended project structure for your content and site looks like this:
     └── tsconfg.json
 ```
 
-### Step 3: Using `next-theme-novela`
+### Step 3: Using `-next_theme_novela`
 
-You must add `next-theme-novela` and `next-lib-content` as package.json dependencies or .meta sub-projects.  We
+You must add `-next_theme_novela` and `next-lib-content` as package.json dependencies or .meta sub-projects.  We
 use the latter in all examples
 
 We also require `next-favicon-loader` and `next-image-meta-loader` as next.js plugins, and use `next-compose-plugins` to
@@ -355,7 +355,7 @@ This is currently beyond the scope of this Next.js starter.
 
 Once you've created the Logo component it should automatically appear in your site.
 
-The technique we have used is called Meta Repositories and Yarn Workspaces and is easier than Gatsby component shadowing.  Just fork `next-theme-novela` and `next-lib-content`, update the `.meta` file, and run the install again. 
+The technique we have used is called Meta Repositories and Yarn Workspaces and is easier than Gatsby component shadowing.  Just fork `-next_theme_novela` and `next-lib-content`, update the `.meta` file, and run the install again. 
 
 ### Enabling Author pages
 
@@ -539,7 +539,7 @@ Choose between a variable width grid or a simpler list style to display each sto
 
 Out of the box, Novela includes both light and dark designs that can be toggled by the user anywhere across the site.
 
-<img src="https://raw.githubusercontent.com/tinialabs/next-theme-novela/master/.github/static/gatsby-theme-novela-light-dark.gif" alt="gatsby-novela-theme light dark theme demonstration" />
+<img src="https://raw.githubusercontent.com/tinialabs/-next_theme_novela/master/.github/static/gatsby-theme-novela-light-dark.gif" alt="gatsby-novela-theme light dark theme demonstration" />
 
 ### Simple Customization with [Theme UI](https://theme-ui.com/)
 
@@ -553,7 +553,7 @@ High quality embedded codeblocks that make authoring technical blog posts a bree
 
 Users can select text within an article to copy or share to platforms like Twitter and LinkedIn.
 
-<img src="https://raw.githubusercontent.com/tinialabs/next-theme-novela/master/.github/static/gatsby-theme-novela-share.jpg" alt="gatsby-novela-theme light dark theme demonstration" />
+<img src="https://raw.githubusercontent.com/tinialabs/-next_theme_novela/master/.github/static/gatsby-theme-novela-share.jpg" alt="gatsby-novela-theme light dark theme demonstration" />
 
 ### Read Time and Progress
 
@@ -563,7 +563,7 @@ Read time is automatically generated for each article based on length, with an a
 
 Navigable by cursor or keyboard, readable via screens and screen readers, Novela ensures everyone on the web can read what you write.
 
-<img src="https://raw.githubusercontent.com/tinialabs/next-theme-novela/master/.github/static/gatsby-theme-novela-accessibility.gif" alt="gatsby-novela-theme accessibility demonstration" />
+<img src="https://raw.githubusercontent.com/tinialabs/-next_theme_novela/master/.github/static/gatsby-theme-novela-accessibility.gif" alt="gatsby-novela-theme accessibility demonstration" />
 
 # The Future
 
@@ -577,6 +577,6 @@ This project is early in development and we are interested in creating an even m
 
 <div>
 <a href="https://novela.tinia.vercel.app/" target="_blank">
-<img src="https://raw.githubusercontent.com/tinialabs/next-theme-novela/master/.github/static/gatsby-theme-novela-cta-demo.jpg" alt="gatsby-novela-theme live demo" width="295px" />
+<img src="https://raw.githubusercontent.com/tinialabs/-next_theme_novela/master/.github/static/gatsby-theme-novela-cta-demo.jpg" alt="gatsby-novela-theme live demo" width="295px" />
 </a>
 </div>
